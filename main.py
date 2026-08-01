@@ -864,8 +864,7 @@ class ProductRuleProof(Scene):
 
         # ── 1. Setup: idea text ─────────────────────────────────────────────
         idea = Text("Think of f and g as side lengths of a rectangle.",
-                    font_size=28, color=YELLOW)
-        idea.to_edge(UP)
+                    font_size=28, color=YELLOW).to_edge(UP)
         self.play(FadeIn(idea))
         self.wait(0.8)
 
