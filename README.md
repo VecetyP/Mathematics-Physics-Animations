@@ -10,3 +10,20 @@
 - Dynamic 3D Orbit Gravity Field (GravityField) – Continuous orbital camera rotation around a blue planet tracking a moving mass in 3D space, showing the real-time morphing of the surrounding gravitational field lines.
 - Projectile Motion Kinematics (ProjectileMotion, ProjectileVisuals) – Simulated physics trajectories plotting height variations over time, rendering dynamic horizontal/vertical component velocity arrows.
 - Step-by-Step Calculus Derivations (ProjectileDerivationMath, ProductRuleProof) – Dynamic mathematical slideshows to step through proofs, featuring a geometric look at the product rule using expanding area boundaries that shrink down to demonstrate the limit as $\Delta x \rightarrow 0$.
+
+---
+
+**Scenes are organized by topic — render one by pointing manim at its file:**
+
+```
+manim euler_identity.py EulerIdentity
+```
+
+| File | Scenes |
+| --- | --- |
+| `playground.py` | `demo`, `LaTeXTest` |
+| `euler_identity.py` | `EulerIdentityNoLatex`, `EulerIdentity` |
+| `fourier.py` | `FourierTransform` |
+| `vector_fields.py` | `StreamLine_VectorField`, `GravityField`, `TEST` |
+| `projectile.py` | `ProjectileMotion`, `ProjectileVisuals` |
+| `derivations.py` | `ProjectileDerivationMath`, `ProductRuleProof` |
